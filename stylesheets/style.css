@@ -70,7 +70,8 @@ body {
         font-size: 12vw !important;
         margin-top: 50px !important;
         padding: 20px !important;
-        grid-column: auto;
+        display: flex;
+        flex-wrap: wrap;
     }
     .sat-title {
         width: 400px !important;
