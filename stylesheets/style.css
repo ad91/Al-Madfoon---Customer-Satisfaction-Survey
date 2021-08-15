@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #651912 !important;
+}
+
+.rade-card {
+    padding: auto !important;
+}
+
+.rate-body {
+    height: 80vh !important;
+}
+
+.far {
+    padding: 35px !important;
+    font-size: 9vw !important;
+}
+
+.card {
+    border-radius: 15px !important;
+    border: none !important;
+}
+
+.sat-title {
+    width: 400px;
+    color: #585A5C !important;
+    font-weight: 300 !important;
+}
+
+/* Satisfaction Rates */
+
+/* Negative Rating */
+.fa-frown-open {
+    color: #DC3126 !important;
+    transition: all 0.4s ease-in-out !important;
+}
+.fa-frown-open:hover {
+    color: #8a170d !important;
+    cursor: pointer;
+}
+
+/* Neutural Rating */
+.fa-meh {
+    color: #EEE046 !important;
+    transition: all 0.4s ease-in-out !important;
+}
+.fa-meh:hover {
+    color: #998e14 !important;
+    cursor: pointer;
+}
+
+/* Positive Rating */
+.fa-laugh-beam {
+    color: #94B43D !important;
+    transition: all 0.4s ease-in-out !important;
+}
+.fa-laugh-beam:hover {
+    color: #66811a !important;
+    cursor: pointer;
+}
+
+/* Media Queiries */
+@media screen and (max-width: 900px){
+    .far {
+        font-size: 12vw !important;
+        margin-top: 50px !important;
+        padding: 20px !important;
+    }
+    .sat-title {
+        width: 400px !important;
+    }
+}
+@media screen and (min-width: 1100px){
+    .far {
+        font-size: 12vw !important;
+        padding: 20px !important;
+    }
+    .sat-title {
+        width: 400px !important;
+    }
+}
+@media screen and (min-width: 1200px){
+    .far {
+        font-size: 10vw !important;
+        margin-top: 15px !important;
+        padding: 20px !important;
+    }
+    .sat-title {
+        width: 400px !important;
+    }
+}
