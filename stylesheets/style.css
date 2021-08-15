@@ -71,7 +71,7 @@ body {
         margin-top: 50px !important;
         padding: 20px !important;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: column;
     }
     .sat-title {
